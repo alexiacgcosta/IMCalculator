@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+    <TextView
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="16dp"
+        android:text="Seu IMC é:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        tools:text="Hello"
+        android:textSize="38sp"
+        />
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Classificação: Normal"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
